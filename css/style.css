@@ -1,62 +1,61 @@
-nav{
-    background: #000C20;
-    color: #7b8693;
+nav {
+  background: #000c20;
+  color: #7b8693;
 }
 
-.first-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #7b8693;
-    font-size: 12px;
+.first-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #7b8693;
+  font-size: 12px;
 }
 
-.contact{
-    display: flex;
-    justify-content: space-around;
-    column-gap: 70px;
+.contact {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 70px;
 }
 
-.icons *{
-    margin-right: 10px;
+.icons * {
+  margin-right: 10px;
 }
 
-.second-nav{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 10px;
-    align-items: center;
+.second-nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  align-items: center;
 }
 
-.links{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    color: #f9f9fa;
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  color: #f9f9fa;
 }
 
-a{
-    text-decoration: none;
-    color: #f9f9fa;
-    
+a {
+  text-decoration: none;
+  color: #f9f9fa;
 }
 
-.links button{
-    padding: 10px 30px;
-    background: #ff5f13;
-    border-radius: 6px;
-    border: none;
-    color: #f9f9fa;
-    cursor: pointer;
+.links button {
+  padding: 10px 30px;
+  background: #ff5f13;
+  border-radius: 6px;
+  border: none;
+  color: #f9f9fa;
+  cursor: pointer;
 }
 
 .hero {
   /* background: url("../images/losangeles.jpg"); */
   /* background: url("../images/pexels-asadphoto-1450340.jpg"); */
   background: url("../images/joseph-paul-jOi8CLM2aaI-unsplash.jpg");
-  
+
   height: 100vh;
   /* background-position: center;
   background-size: cover;
@@ -64,7 +63,6 @@ a{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  
 }
 
 .hero-overlay {
@@ -78,92 +76,90 @@ a{
   background: rgba(0, 0, 0, 0.3);
 }
 
-.hero-overlay h1{
-    font-size: 4rem;
-    width: 60%;
-    color: #ffffff;
+.hero-overlay h1 {
+  font-size: 4rem;
+  width: 60%;
+  color: #ffffff;
 }
 
-.hero-overlay p{
-    color: #cbced3;
-    position:relative;
-    bottom: 10px;
-    font-style: italic;
-    font-size: 13px;
-    
+.hero-overlay p {
+  color: #cbced3;
+  position: relative;
+  bottom: 10px;
+  font-style: italic;
+  font-size: 13px;
 }
 
-.logistic{
-    color: #ff5f13;
+.logistic {
+  color: #ff5f13;
 }
 
-input{
-    padding: 15px;
-    width: 30%;
-    
-    border:none;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 10px;
-    font-size: 12px;
-    
+input {
+  padding: 15px;
+  width: 30%;
+
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 10px;
+  font-size: 12px;
 }
 
-.submit{
-    padding: 15px 25px;
-    position: relative;
-    right:4px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 10px;
-    border: none;
-    background: #ff5f13;
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 12px;
+.submit {
+  padding: 15px 25px;
+  position: relative;
+  right: 4px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background: #ff5f13;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 12px;
 }
 
-.convo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    column-gap: 10px;
-    
+.convo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  column-gap: 10px;
 }
 
-.convo img{
-    width: 50px;
-    
+.convo img {
+  width: 50px;
 }
 
-.convo div span{
-    font-weight: bolder;
+.convo div span {
+  font-weight: bolder;
 }
 
-.convo div p{
-    font-size: 14px;
+.convo div p {
+  font-size: 14px;
 }
 
-.communicate{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 40px 0;
-    background: #f9f9f9;
-    margin-bottom: 150px;
+.communicate {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 0;
+  background: #f9f9f9;
+  margin-bottom: 100px;
 }
 
-.services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 23px;
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
 }
 
-.services p{
-    color: #ff5f13;
+.services p {
+  color: #ff5f13;
 }
 
-.services h2{
-    color: #2c234d;
+.services h1 {
+  color: #2c234d;
+  font-weight: bolder;
+  font-size: 2rem;
 }
