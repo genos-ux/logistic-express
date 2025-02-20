@@ -568,12 +568,13 @@ select{
   height: 50px;
   background: #f5f5f5;
   border-radius: 5px;
-  
+
 
 }
 
 .date h2{
   font-size: 2rem;
+  color: #ff5f13;
 }
 
 .comments{
