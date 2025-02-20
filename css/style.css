@@ -94,10 +94,9 @@ a {
   color: #ff5f13;
 }
 
-input {
+#track{
   padding: 15px;
   width: 30%;
-
   border: none;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 10px;
@@ -252,4 +251,98 @@ input {
   background-size: contain;
   border-radius: 5px;
   border: none;
+}
+
+.request{
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150px;
+  align-items: center;
+  background: url("../images/truck-2663163.jpg");
+  background-size: cover;
+  
+}
+
+.request-form{
+ 
+  width: 34%;
+  margin-right: 30px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  background: #f5f5f5;
+  
+  
+  
+}
+
+.request h5{
+  color: #ff5f13;
+}
+
+.request p{
+  font-size: 13px;
+}
+
+#form{
+  margin-top: 10px;
+}
+#form *{
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.personal-contact{
+  display: flex;
+  column-gap: 15px;
+}
+
+.personal-contact input{
+  width: 45%;
+  padding: 10px;
+}
+
+.number{
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.personal-contact select{
+  width: 48%;
+}
+
+.size{
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 5px;
+}
+
+.size input{
+  width: 28%;
+  padding: 10px;
+}
+
+.service{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form button{
+  width: 100%;
+  padding: 10px;
+  background: #ff5f13;
+  color: white;
+}
+
+.team{
+  margin-top: 120px;
 }
