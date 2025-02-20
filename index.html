@@ -159,6 +159,7 @@
         <div class="about-us-img"></div>
       </div>
 
+      <div id="request">
       <section class="request">
         <div class="request-form">
           <h5>Get a Qote For Free</h5>
@@ -176,11 +177,11 @@
             <input type="text" class="number" placeholder="Contact Number" />
 
             <div class="personal-contact" style="margin-top: 10px">
-              <select name="cars" id="cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
+              <select name="freight" id="freight">
+                <option value="freight type">Freight type</option>
+                <option value="categories one">Categories One</option>
+                <option value="categories two">Categories Two</option>
+                <option value="categories three">Categories Three</option>
               </select>
               <input type="text" placeholder="City Of Departure" />
             </div>
@@ -204,15 +205,15 @@
               </div>
               <div>
                 <input type="radio" id="freight" name="extra_services" value="freight">
-                <label for="freight">Freight</label>
+                <label for="freight">Express Delivery</label>
               </div>
               <div>
                 <input type="radio" id="freight" name="extra_services" value="freight">
-                <label for="freight">Freight</label>
+                <label for="freight">Insurance</label>
               </div>
               <div>
                 <input type="radio" id="freight" name="extra_services" value="freight">
-                <label for="freight">Freight</label>
+                <label for="freight">Packaging</label>
               </div>
             </div>
 
@@ -220,18 +221,59 @@
           </form>
         </div>
       </section>
+      </div>
 
       <div class="team">
-        <p>Our Team Members</p>
-        <h1>What We Can Do For You</h1>
+        <div class="quote-member">
+          <h4>Our Team Members</h4>
+          <h1>What We Can Do For You</h1>
+        </div>
 
         <div class="team-members">
-          <div class="member">
-            <h3>Mancherwan Kolin</h3>
-            <p>Health agent</p>
+          <div class="member" id="member-1">
+            <div>
+              <h3>Mancherwan Kolin</h3>
+              <p>Health agent</p>
+            </div>
+          </div>
+          <div class="member" id="member-2">
+            <div>
+              <h3>Gustavo Fring</h3>
+              <p>Field Officer</p>
+            </div>
+          </div>
+          <div class="member" id="member-3">
+            <div>
+              <h3>Jisung Park</h3>
+              <p>Public Relation</p>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="testimonials-container">
+        <div class="testimonials">
+          <div class="test">
+            <h3>Client Testimonials</h3>
+            <h1>What Our Clients Say!</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia natus laborum accusantium officiis ex doloremque ut consequuntur et distinctio odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, labore. </p>
+            <div class="avatar-container">
+              <div class="avatar"></div>
+              <div>
+                <h4>Jason Smith</h4>
+                <span>Creative designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-quote">
+            <h2>Always listening, always understanding.</h2>
+            <input type="text" placeholder="Incoterms">
+            <button type="submit">REQUEST A QUOTE</button>
+          </div>
+      </div>
+
+      </div>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
